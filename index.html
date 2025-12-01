@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Faisal & [Bride's Name] Wedding Invitation</title>
+    <!-- New Elegant Google Fonts: Tangerine (Script), Cormorant Garamond (Serif), Inter (Body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Tangerine:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Basic Reset and Fonts */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+        }
+
+        .invitation-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fcfcfc; /* Softer white background */
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 40px 20px;
+            border-radius: 8px; 
+
+            /* 1. Initial State for Fade-In (Animation Setup) */
+            opacity: 0; 
+            transform: translateY(20px); 
+            transition: opacity 1.5s ease-out, transform 1.5s ease-out; 
+        }
+        
+        /* Responsive adjustments for mobile */
+        @media (max-width: 640px) {
+            .invitation-container {
+                margin: 0;
+                padding: 20px 10px;
+                border: none;
+                box-shadow: none;
+            }
+        }
+
+        /* Headings and Titles */
+        h1, h2, h3, h4 {
+            color: #806c4a; /* Rich gold/brown accent color */
+            margin: 10px 0;
+        }
+
+        /* H1 - New Script Title (Tangerine) */
+        h1 {
+            font-family: 'Tangerine', cursive;
+            font-size: 5em; /* Larger size for script font */
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: #c9a039; /* True gold accent for main title */
+            text-transform: capitalize;
+            letter-spacing: 0; /* Remove unnecessary spacing for script font */
+        }
+
+        /* H2 - Couple Names: Times New Roman Italic */
+        h2 {
+            font-family: 'Times New Roman', serif; /* Specifically set to Times New Roman */
+            font-size: 2.5em;
+            font-weight: 400; 
+            font-style: italic; /* Apply italic style */
+            margin-bottom: 5px;
+        }
+        
+        /* H3 - Parents' names (Standard) & Event Titles */
+        h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.5em; 
+            font-weight: 400;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        /* H4 - Venue Name */
+        h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #806c4a;
+            margin-bottom: 5px;
+        }
+
+
+        /* The "AND" text: Times New Roman Italic */
+        .main-couple .and-text {
+            font-size: 1.2em;
+            font-family: 'Times New Roman', serif; 
+            font-style: italic;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        /* Style for IN SHA ALLAH ON text */
+        .inshallah-note {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #806c4a; /* Use the main accent color */
+            margin: 0 0 5px 0;
+        }
+
+
+        /* Event Sections */
+        .event {
+            margin: 30px 0;
+            padding: 20px 0;
+            border-top: 1px dashed #ccc;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .event-title {
+            font-size: 1.8em;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .date-time {
+            margin-bottom: 15px;
+        }
+
+        .date-time .day {
+            display: block;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .date-time .date {
+            display: block;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8em;
+            color: #806c4a;
+        }
+
+        .venue {
+            margin-top: 20px;
+        }
+
+        .venue p {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.4;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Footer/RSVP */
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.8em;
+            color: #999;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .footer .contact {
+            font-size: 1em;
+            font-weight: bold;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-container">
+
+        <header class="hero">
+            <!-- NEW MAIN HEADING: Tangerine Font -->
+            <h1>You Are Invited</h1>
+            <!-- Old h1 is now h3, using Inter Font -->
+            <h3>Mr. & Mrs. Abdul Razzaq Arain</h3>
+            <p>Request the pleasure of your company at the wedding of their beloved son</p>
+        </header>
+
+        <section class="main-couple">
+            <!-- H2 uses Times New Roman Italic -->
+            <h2>Muhammad Faisal Arain</h2>
+            <div class="and-text">&</div>
+            <h2>Daughter of Mr. & Mrs. Abdul Jabbar Arain</h2>
+        </section>
+
+        <!-- Baraat Ceremony Section -->
+        <section class="event baraat">
+            <h3 class="event-title">Baraat Ceremony</h3>
+            <div class="date-time">
+                <p class="inshallah-note">IN SHA ALLAH ON</p>
+                <span class="day">Thursday</span>
+                <span class="date">25<sup>th</sup> December | 2025</span>
+            </div>
+            <div class="venue">
+                <h4>AHMED MARRIAGE LAWN</h4>
+                <p>PLOT NO: PK-01 SHAH TOWN, PHASE I, KARACHI</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Valima Reception Section -->
+        <section class="event valima">
+            <h3 class="event-title">Valima Reception</h3>
+            <div class="date-time">
+                <p class="inshallah-note">IN SHA ALLAH ON</p>
+                <span class="day">Saturday</span>
+                <span class="date">27<sup>th</sup> December | 2025</span>
+            </div>
+            <div class="venue">
+                <h4>DIAMOND BANQUET</h4>
+                <p>PLOT NO. C-35, 37 EXTENSION, PHASE I, GULSHAN-E-HADID</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Awaiting to Welcome: Mr Abdul Sattar Arain, Mr. Abdul Ghaffar Arain & others
+            Designed By M-Taha Sattar Arain</p>
+            <p class="contact">R.S.V.P: 0302-3713071 | 0311-2934964</p>
+        </footer>
+
+    </div>
+    
+    <script>
+        // JavaScript for the initial fade-in animation
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const container = document.querySelector('.invitation-container');
+            
+            // Ensures the initial state is applied before animating
+            if (container) {
+                // Use a slight delay to trigger the CSS transition defined in the <style> block
+                setTimeout(() => {
+                    container.style.opacity = 1;
+                    container.style.transform = 'translateY(0)';
+                }, 50);
+            }
+        });
+    </script> 
+
+</body>
+</html>
